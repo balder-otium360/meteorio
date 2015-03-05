@@ -6,10 +6,6 @@ Router.configure({
 });
 
 Router.route('/', function () {
-  this.redirect('/home');
-});
-
-Router.route('/home', function () {
   this.render('home');
 });
 
