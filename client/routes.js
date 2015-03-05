@@ -1,13 +1,18 @@
 'use strict';
 
 Router.configure({
-  layoutTemplate: 'layout'
+  layoutTemplate: 'layout',
+  loadingTemplate: 'loading'
 });
 
-Router.map(function() {
-  this.route('home', {
-    path: '/',
-    template: 'home'
-  });
+Router.route('/', function () {
+  this.redirect('/home');
 });
 
+Router.route('/home', function () {
+  this.render('home');
+});
+
+Router.route('/about', function () {
+  this.render('about');
+});

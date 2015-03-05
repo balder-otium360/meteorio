@@ -5,8 +5,13 @@
 </head>
 
 <body>
+  {{> modal}}
 </body>
 
 <template name="layout">
-  {{> yield}}
+  <div class="container">
+    {{> navbar}}
+
+    {{> yield}}
+  </div>
 </template>

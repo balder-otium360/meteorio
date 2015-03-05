@@ -8,7 +8,7 @@ Template.home.helpers({
 
 Template.home.events({
   /* jshint unused: false */
-  'click button': function(event, template) {
+  'click .x-my-button': function(event, template) {
     Session.set('myAppVariable', Math.floor(Math.random() * 11));
   }
 });
