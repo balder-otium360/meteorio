@@ -2,3 +2,4 @@ standard-app-packages
 iron:router
 coffeescript
 fourseven:scss
+twbs:bootstrap
