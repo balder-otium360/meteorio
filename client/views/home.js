@@ -1,5 +1,3 @@
-'use strict';
-
 Template.home.helpers({
   myAppVariable: function() {
     return Session.get('myAppVariable');
@@ -9,6 +7,6 @@ Template.home.helpers({
 Template.home.events({
   /* jshint unused: false */
   'click .x-my-button': function(event, template) {
-    Session.set('myAppVariable', Math.floor(Math.random() * 11));
+    Session.set('myAppVariable', Math.floor(Math.random() * 101));
   }
 });
