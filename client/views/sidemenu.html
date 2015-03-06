@@ -1,0 +1,31 @@
+<template name="sidemenu">
+
+  <div class="bar bar-header bar-dark">
+    <h1 class="title">Left Menu</h1>
+  </div>
+  <div class="content has-header">
+    <div class="list">
+      <a href="/" data-ion-menu-close>
+        <div class="item item-icon-right">
+          Home {{> ionIcon icon="home"}}
+        </div>
+      </a>
+      <a href="/places" data-ion-menu-close>
+        <div class="item item-icon-right">
+          Places {{> ionIcon icon="wineglass"}}
+        </div>
+      </a>
+      <a href="/about" data-ion-menu-close>
+        <div class="item item-icon-right">
+          About {{> ionIcon icon="information"}}
+        </div>
+      </a>
+      <a href="#" data-ion-modal="modal">
+        <div class="item item-icon-right">
+          Contact {{> ionIcon icon="email"}}
+        </div>
+      </a>
+    </div>
+  </div>
+
+</template>

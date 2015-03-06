@@ -2,5 +2,7 @@ standard-app-packages
 iron:router
 coffeescript
 fourseven:scss
-twbs:bootstrap
 mike:mocha
+meteoric:ionic-sass
+meteoric:ionicons-sass
+meteoric:ionic

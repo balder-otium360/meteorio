@@ -1,8 +1,23 @@
 <template name="about">
-  <div class="jumbotron">
-    <h1>About</h1>
-    <p>
-      Something about it.
-    </p>
-  </div>
+  {{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton}}
+  {{/contentFor}}
+
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">About</h1>
+  {{/contentFor}}
+
+  {{#ionView}}
+    {{#ionContent}}
+      <div class="card">
+        <div class="item item-text-wrap">
+          <h1>About</h1>
+          <p>
+            Something about it.
+          </p>
+        </div>
+      </div>
+    {{/ionContent}}
+  {{/ionView}}
+
 </template>

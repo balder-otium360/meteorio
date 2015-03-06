@@ -1,13 +1,13 @@
 <template name="place">
-  <a href="#" class="list-group-item">
-    <div class="media">
-      <div class="media-left">
-        <img class="media-object img-circle" src="{{placePhotos.[0].thumbnails.[0].url}}" style="width: 60px">
-      </div>
-      <div class="media-body">
-        <h4 class="media-heading">{{name}}</h4>
-        <p class="text-ellipsis">{{shortDescription}}</p>
-      </div>
-    </div>
-  </a>
+  {{#ionItem buttonRight=true avatar=true}}
+
+    <img src="{{placePhotos.[0].thumbnails.[0].url}}">
+    <h2>{{name}}</h2>
+    <p>
+      {{shortDescription}}
+    </p>
+
+    <button class="button button-positive">{{> ionIcon icon="ios-telephone"}}</button>
+
+  {{/ionItem}}
 </template>
