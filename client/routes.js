@@ -12,3 +12,7 @@ Router.route('/', function () {
 Router.route('/about', function () {
   this.render('about');
 });
+
+Router.route('/places', function () {
+  this.render('places');
+});
