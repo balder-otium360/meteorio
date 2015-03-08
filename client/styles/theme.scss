@@ -10,5 +10,5 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 
-@import '../../.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/ionic';
-@import '../../.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/ionicons';
+@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/ionic';
+@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/ionicons';
