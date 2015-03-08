@@ -36,7 +36,7 @@ livedata@1.0.12
 logging@1.0.6
 meteor@1.1.4
 meteor-platform@1.2.1
-meteoric:ionic@0.1.17
+meteoric:ionic@0.1.16
 meteoric:ionic-sass@0.1.8
 meteoric:ionicons-sass@0.1.5
 mike:mocha@0.5.2
