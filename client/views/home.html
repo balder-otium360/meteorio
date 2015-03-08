@@ -1,6 +1,10 @@
 <template name="home">
+  {{#contentFor "headerButtonLeft"}}
+    {{>sideMenuButton}}
+  {{/contentFor}}
+
   {{#contentFor "headerTitle"}}
-    <h1 class="title" data-ion-menu-toggle="left">Meteorio</h1>
+    <h1 class="title">Meteorio</h1>
   {{/contentFor}}
 
   {{#ionView}}
