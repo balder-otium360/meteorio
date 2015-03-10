@@ -6,7 +6,7 @@ Template.home.helpers({
 
 Template.home.events({
   /* jshint unused: false */
-  'click .x-my-button': function(event, template) {
+  'click [data-ot-mybutton]': function(event, template) {
     Session.set('myAppVariable', Math.floor(Math.random() * 101));
   }
 });
