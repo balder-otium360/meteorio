@@ -1,0 +1,26 @@
+<template name="placeDetail">
+  {{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton}}
+  {{/contentFor}}
+
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">{{name}}</h1>
+  {{/contentFor}}
+
+  {{#ionView}}
+    {{#ionContent class="padding"}}
+
+      <div class="card">
+
+        <div class="item">
+          <img src="{{placePhotos.[0].thumbnails.[1].imageURL}}">
+        </div>
+
+        <div class="item item-text-wrap">
+          {{fullDescription}}
+        </div>
+      </div>
+
+    {{/ionContent}}
+  {{/ionView}}
+</template>
