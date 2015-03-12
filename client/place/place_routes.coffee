@@ -2,7 +2,11 @@ Router.route '/places',
   data: ->
     places: Places.find(
       {},
-      sort: name: 1
+      {
+        sort:
+          name: 1
+        limit: 10
+      }
     )
 
 Router.route '/places/:id',
