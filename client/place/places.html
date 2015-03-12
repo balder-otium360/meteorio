@@ -1,6 +1,6 @@
 <template name="Places">
   {{#contentFor "headerButtonLeft"}}
-    {{>sideMenuButton}}
+    {{>SideMenuButton}}
   {{/contentFor}}
 
   {{#contentFor "headerTitle"}}
@@ -13,7 +13,7 @@
       {{#ionList}}
 
         {{#each places}}
-          {{> placeItem}}
+          {{> PlaceItem}}
         {{/each}}
 
       {{/ionList}}
@@ -22,7 +22,7 @@
   {{/ionView}}
 </template>
 
-<template name="placeItem">
+<template name="PlaceItem">
   {{#ionItem path="place.detail" data=navData buttonRight=true avatar=true}}
 
     <img src="{{placePhotos.[0].thumbnails.[0].imageURL}}">

@@ -3,6 +3,6 @@ Router.configure
   loadingTemplate: 'Loading'
 
 Router.route '/',
-  template: 'home'
+  template: 'Home'
 
 Router.route '/about'
