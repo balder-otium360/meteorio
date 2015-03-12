@@ -12,6 +12,6 @@ Meteor sample project using [Meteoric](https://github.com/meteoric/meteor-ionic)
 
 ## Basic Usage
 
-* Run Meteor app
+* Run Meteor app (you may need to run it twice for the first time of after reset due to a Meteoric failed dependency)
 
         meteor
